@@ -30,12 +30,12 @@ To run this project locally on your machine, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Govindr06/FUTURE_FS_01.git](https://github.com/Govindr06/FUTURE_FS_01.git)
+   
 
-```
 
 2. **Navigate into the directory:**
 ```bash
-cd FUTURE_FS_01
+   cd FUTURE_FS_01
 
 ```
 
@@ -65,4 +65,3 @@ npm run dev
 
 ```
 
-```
