@@ -1,62 +1,176 @@
-# Govind's Developer Portfolio 🚀
+# FUTURE_FS_01 - Personal Portfolio Website
 
-**Frontend Web Development - Task 1 Submission**
+A modern personal portfolio website built for the Future Interns Full Stack Web Development task. The site presents my professional profile, technical skills, education, internship experience, featured projects, and a working contact form.
 
-A modern, interactive personal portfolio website designed to showcase my technical skills, software projects, and professional background. Built with a focus on clean UI, smooth interactions, and responsive design.
+## Live Demo
 
-### 🔗 Live Demo
-**👉 https://future-fs-01-lime-one.vercel.app/ 👈**
+Hosted on Vercel:
 
----
+https://future-fs-01-lime-one.vercel.app/
 
-### 🛠️ Tech Stack
-* **Frontend:** React.js, Vite, Tailwind CSS
-* **Deployment:** Vercel
-* **Version Control:** Git & GitHub
+## About
 
----
+This portfolio belongs to **Govind Rajeshkumar Pillai**, a Full Stack Web Developer and Computer Science student at VIT Chennai. It is designed as a clean single-page application with smooth navigation, responsive layouts, and a professional visual style.
 
-### ✨ Key Features
-* **Dynamic Layouts:** Seamlessly navigate through my professional experience, education, and technical projects.
-* **Responsive Architecture:** Fully optimized for desktop, tablet, and mobile viewing.
-* **Optimized Structure:** Engineered for better visibility and web accessibility.
-* **Contact Interface:** Integrated contact section for professional inquiries and collaboration.
+The content highlights:
 
----
+- Current internship: Intern - Full Stack Web Development at Future Interns
+- Education: B.Tech student at Vellore Institute of Technology, Chennai
+- Projects: StudyGraph and University Event Dashboard
+- Skills: React, JavaScript, Tailwind CSS, Flask, Node.js, PostgreSQL, JWT Authentication, LangGraph, REST APIs, and Git
 
-### ⚙️ Local Development Setup
-To run this project locally on your machine, follow these steps:
+## Features
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Govindr06/FUTURE_FS_01.git](https://github.com/Govindr06/FUTURE_FS_01.git)
+- Responsive single-page portfolio layout
+- Smooth-scroll navigation
+- Professional hero section with social links
+- Resume section with highlighted Future Interns internship
+- Skills section with full stack technologies
+- Portfolio gallery for featured projects
+- Contact form integrated with EmailJS
+- Success and loading feedback for form submission
+- SEO-friendly HTML metadata
+- Hosted deployment through Vercel
 
+## Tech Stack
 
-2. **Navigate into the directory:**
+- React
+- Vite
+- Tailwind CSS
+- EmailJS Browser SDK
+- JavaScript
+- HTML5
+- Vercel
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
 ```bash
-   cd FUTURE_FS_01
+git clone https://github.com/Govindr06/FUTURE_FS_01.git
 ```
 
+### 2. Navigate to the Project Folder
 
-3. **Install dependencies:**
+```bash
+cd FUTURE_FS_01
+```
+
+### 3. Install Dependencies
+
 ```bash
 npm install
 ```
 
+### 4. Start the Development Server
 
-4. **Start the local development server:**
 ```bash
 npm run dev
 ```
 
----
-### 📁 Project Structure
+The app will run locally at the URL shown in the terminal, usually:
 
-* `src/App.jsx` - Composes the single-page application sections.
-* `src/components/Header.jsx` - Provides smooth-scroll navigation.
-* `src/components/Hero.jsx` - Contains the professional introduction.
-* `src/components/Resume.jsx` - Displays skills and experience in a timeline layout.
-* `src/components/Portfolio.jsx` - Renders the sample project gallery.
-* `src/components/Contact.jsx` - Includes the contact form UI flow.
+```bash
+http://localhost:5173
+```
 
+## Available Scripts
+
+```bash
+npm run dev
+```
+
+Starts the local development server.
+
+```bash
+npm run build
+```
+
+Creates a production-ready build in the `dist` folder.
+
+```bash
+npm run preview
+```
+
+Previews the production build locally.
+
+```bash
+npm run lint
+```
+
+Runs ESLint checks.
+
+## Project Structure
+
+```text
+FUTURE_FS_01/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Resume.jsx
+│   │   └── SectionHeading.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Main Components
+
+- `Header.jsx`: Sticky navigation with smooth scrolling and social links.
+- `Hero.jsx`: Professional introduction, headline, summary, and quick links.
+- `Resume.jsx`: Experience, education, and core skills. The Future Interns internship is clearly highlighted.
+- `Portfolio.jsx`: Project cards for StudyGraph and University Event Dashboard.
+- `Contact.jsx`: EmailJS-powered contact form with loading, success, and error states.
+- `Footer.jsx`: Footer with name, role, and social profile links.
+
+## Contact Form
+
+The contact form uses `@emailjs/browser` to send email notifications from the frontend. It includes:
+
+- Controlled form inputs
+- `useRef` for capturing the form node
+- `emailjs.sendForm()` for submission
+- Loading text while the message is being sent
+- Success/error feedback after submission
+- Automatic form clearing after a successful send
+
+## Featured Projects
+
+### StudyGraph
+
+A personalized AI teaching platform that breaks down complex concepts based on a user's desired study timeline.
+
+Tech stack: Flask, LangGraph, Grok API, HTML, CSS, JavaScript, Neon PostgreSQL.
+
+### University Event Dashboard
+
+A role-based dashboard for administrators to manage event logistics and for students to securely register for confirmed university events.
+
+Tech stack: HTML, CSS, JavaScript, Node.js, JSON.
+
+## Deployment
+
+This project is deployed on Vercel:
+
+https://future-fs-01-lime-one.vercel.app/
+
+To deploy updates, push changes to the connected GitHub repository and let Vercel build the latest version automatically.
+
+## Author
+
+**Govind Rajeshkumar Pillai**
+
+- GitHub: https://github.com/Govindr06
+- LinkedIn: https://www.linkedin.com/in/govind-rajeshkumar-pillai-b3bb49321
 
