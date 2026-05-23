@@ -1,8 +1,8 @@
-# Govind's Professional Portfolio 🚀
+# Govind's Developer Portfolio 🚀
 
-**Future Interns - Full Stack Web Development Internship (Task 1)**
+**Frontend Web Development - Task 1 Submission**
 
-A modern, interactive personal portfolio website designed to showcase my technical skills, full-stack development projects, and professional background. Built with a focus on clean UI, smooth interactions, and responsive design.
+A modern, interactive personal portfolio website designed to showcase my technical skills, software projects, and professional background. Built with a focus on clean UI, smooth interactions, and responsive design.
 
 ### 🔗 Live Demo
 **👉 [Insert Your Vercel Link Here] 👈**
@@ -17,10 +17,10 @@ A modern, interactive personal portfolio website designed to showcase my technic
 ---
 
 ### ✨ Key Features
-* [cite_start]**Interactive Resume & Portfolio Sections:** Seamlessly navigate through my professional experience, education, and technical projects[cite: 74].
+* **Dynamic Layouts:** Seamlessly navigate through my professional experience, education, and technical projects.
 * **Responsive Architecture:** Fully optimized for desktop, tablet, and mobile viewing.
-* [cite_start]**SEO-Friendly Structure:** Engineered for better visibility and web accessibility[cite: 76].
-* [cite_start]**Contact Interface:** Integrated contact section for professional inquiries and collaboration[cite: 75].
+* **Optimized Structure:** Engineered for better visibility and web accessibility.
+* **Contact Interface:** Integrated contact section for professional inquiries and collaboration.
 
 ---
 
