@@ -30,3 +30,39 @@ To run this project locally on your machine, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Govindr06/FUTURE_FS_01.git](https://github.com/Govindr06/FUTURE_FS_01.git)
+
+```
+
+2. **Navigate into the directory:**
+```bash
+cd FUTURE_FS_01
+
+```
+
+
+3. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+4. **Start the local development server:**
+```bash
+npm run dev
+
+```
+
+---
+### 📁 Project Structure
+
+* `src/App.jsx` - Composes the single-page application sections.
+* `src/components/Header.jsx` - Provides smooth-scroll navigation.
+* `src/components/Hero.jsx` - Contains the professional introduction.
+* `src/components/Resume.jsx` - Displays skills and experience in a timeline layout.
+* `src/components/Portfolio.jsx` - Renders the sample project gallery.
+* `src/components/Contact.jsx` - Includes the contact form UI flow.
+
+```
+
+```
