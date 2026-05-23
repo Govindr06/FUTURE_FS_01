@@ -1,32 +1,32 @@
-# FUTURE_FS_01 Portfolio
+# Govind's Professional Portfolio 🚀
 
-Personal professional portfolio scaffolded with React, Vite, and Tailwind CSS.
+**Future Interns - Full Stack Web Development Internship (Task 1)**
 
-## Getting Started
+A modern, interactive personal portfolio website designed to showcase my technical skills, full-stack development projects, and professional background. Built with a focus on clean UI, smooth interactions, and responsive design.
 
-Install dependencies:
+### 🔗 Live Demo
+**👉 [Insert Your Vercel Link Here] 👈**
 
-```bash
-npm install
-```
+---
 
-Start the development server:
+### 🛠️ Tech Stack
+* **Frontend:** React.js, Vite, Tailwind CSS
+* **Deployment:** Vercel
+* **Version Control:** Git & GitHub
 
-```bash
-npm run dev
-```
+---
 
-Build for production:
+### ✨ Key Features
+* [cite_start]**Interactive Resume & Portfolio Sections:** Seamlessly navigate through my professional experience, education, and technical projects[cite: 74].
+* **Responsive Architecture:** Fully optimized for desktop, tablet, and mobile viewing.
+* [cite_start]**SEO-Friendly Structure:** Engineered for better visibility and web accessibility[cite: 76].
+* [cite_start]**Contact Interface:** Integrated contact section for professional inquiries and collaboration[cite: 75].
 
-```bash
-npm run build
-```
+---
 
-## Structure
+### ⚙️ Local Development Setup
+To run this project locally on your machine, follow these steps:
 
-- `src/App.jsx` composes the single-page application sections.
-- `src/components/Header.jsx` provides smooth-scroll navigation.
-- `src/components/Hero.jsx` contains the professional introduction.
-- `src/components/Resume.jsx` displays skills and experience in a timeline layout.
-- `src/components/Portfolio.jsx` renders the sample project gallery.
-- `src/components/Contact.jsx` includes a mock contact form submit flow.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Govindr06/FUTURE_FS_01.git](https://github.com/Govindr06/FUTURE_FS_01.git)
